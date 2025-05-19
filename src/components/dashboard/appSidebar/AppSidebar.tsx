@@ -46,6 +46,7 @@ const role = 'User'
       { title: "Add Blog", url: "add_blog", icon: StickyNote },
       { title: "All Blogs", url: "all_blogs", icon: Rss },
       { title: "All Contact", url: "all_contactinfo", icon: MessageSquareText },
+      { title: "Select Features", url: "select_features", icon: MessageSquareText },
     ],
   };
 
