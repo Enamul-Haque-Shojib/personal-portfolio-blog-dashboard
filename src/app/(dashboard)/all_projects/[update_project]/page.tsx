@@ -105,7 +105,7 @@ const UpdateProject = () => {
 
         try {
             await updateProject(updatedProject, params?.update_project);
-            router.push('/dashboard/all_projects')
+            router.push('/all_projects')
             toast({ title: "Success", description: "Project updated successfully!" });
         } catch (error) {
             console.error("Error submitting form:", error);

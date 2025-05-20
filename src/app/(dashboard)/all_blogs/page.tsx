@@ -143,7 +143,7 @@ const AllBlogs = () => {
   }, []);
 
   const handleUpdateBlog = (id: string) => {
-    router.push(`/dashboard/all_blogs/${id}`);
+    router.push(`/all_blogs/${id}`);
   };
 
   const handleDeleteBlog = async (id: string) => {

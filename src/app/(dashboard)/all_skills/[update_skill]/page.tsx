@@ -83,7 +83,7 @@ const UpdateSkill = () => {
         try {
             await updateSkill(updatedSkill, params?.update_skill);
 
-            router.push('/dashboard/all_skills')
+            router.push('/all_skills')
             toast({ title: "Success", description: "skill updated successfully", variant: "default" });
         } catch (error) {
             console.error("Error submitting form:", error);

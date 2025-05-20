@@ -79,7 +79,7 @@ const UpdateBlog = () => {
                 description: "Blog updated successfully",
                 variant: "default",
             });
-            router.push('/dashboard/all_blogs');
+            router.push('/all_blogs');
         } catch (error) {
             toast({
                 title: "Error",

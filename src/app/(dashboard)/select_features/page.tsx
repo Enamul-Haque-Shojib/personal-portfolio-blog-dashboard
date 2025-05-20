@@ -52,7 +52,7 @@ const SelectFeatures = () => {
   try {
     const res = await selectedFeaturesProjects(id);
     if (res.success) {
-                toast({ title: "Success", description: "Project selected successfully!" });
+                toast({ title: "Success", description: "Project selected and added successfully in to Feature !" });
             } else {
                 toast({ variant: "destructive", title: "Error", description: "Failed to selected the project." });
             }
@@ -71,11 +71,11 @@ const SelectFeatures = () => {
 const handleRemovedFeatures = async (id: string) => {
   try {
     const res = await removedFeaturesProjects(id);
-    console.log(res)
+    
     if (res.success) {
-                toast({ title: "Success", description: "Project removed successfully!" });
+                toast({ title: "Success", description: "Project removed successfully from Feature!" });
             } else {
-                toast({ variant: "destructive", title: "Error", description: "Failed to removed the project." });
+                toast({ variant: "destructive", title: "Error", description: "Failed to removed the project from Feature." });
             }
 
     // Update local state

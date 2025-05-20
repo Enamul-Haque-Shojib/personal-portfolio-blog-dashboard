@@ -151,7 +151,7 @@ const AllProjects = () => {
   }, []);
 
   const handleUpdateProject = (id: string) => {
-    router.push(`/dashboard/all_projects/${id}`);
+    router.push(`/all_projects/${id}`);
   };
 
   const handleDeleteProject = async (id: string) => {

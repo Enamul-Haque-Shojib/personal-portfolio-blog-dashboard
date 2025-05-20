@@ -30,7 +30,7 @@ export const authOptions : NextAuthOptions = {
         cache: 'no-store'
       })
       const user = await res.json()
-console.log(user)
+
       
       if (res.ok && user) {
         return {

@@ -5,7 +5,7 @@
 
 
 const removedFeaturesProjects = async(id: string) => {
-    const res = await fetch(`http://localhost:5000/api/projects/feature-project/${id}`,
+    const res = await fetch(`https://personal-portfolio-blog-website-server.vercel.app/api/projects/feature-project/${id}`,
         {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json'},

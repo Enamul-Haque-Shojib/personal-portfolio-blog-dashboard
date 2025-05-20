@@ -46,7 +46,7 @@ const ALLSkills = () => {
     }, []);
 
     const handleUpdateSkill = (id: string) => {
-        router.push(`/dashboard/all_skills/${id}`);
+        router.push(`/all_skills/${id}`);
     };
 
     const handleDeleteSkill = async (id: string) => {
